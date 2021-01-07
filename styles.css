@@ -1,0 +1,94 @@
+body{
+	background-color: #EAEAEA;
+}
+.textframe iframe{
+	margin-top: 20px;
+	width: 70%;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	background-color: white;
+	border:1.5px #2ED3DC solid;
+}
+
+
+.navigation-bar   {
+	background-color: #707070;
+  	padding-top: 10px;
+  	padding-bottom: 10px;
+	width: 100%;
+	height: 90px;
+	margin-top: 40px;
+	
+
+}
+
+.navigation-bar ul   {
+	align-self: auto;
+	margin: 0px;
+	text-align:center;
+	margin-top: 10px;
+}
+
+.navigation-bar li    {
+	list-style-type: none;
+	padding: 0px;
+	height: 24px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+  	display:inline;
+  
+}
+.navigation-bar li div   {
+	
+  	display:inline-block;
+  
+}
+
+.navigation-bar li div span  {
+	font-size: 20px;
+	color: white;
+	display:block;
+	margin-bottom: -32px;
+	margin-top: 10px;
+	padding-right: 6px;
+	
+}
+
+
+.navigation-bar li button    {
+	color:white;
+	font-family:sans-serif;
+	font-size: 20px;
+	margin-top: 4px;
+	border: none;
+	cursor: pointer;
+	background-color: transparent;
+	margin-right: 16px;
+	
+
+}
+.navigation-bar li {
+	margin-left:20px;
+	border:#C00;
+}
+input[type="color"] {
+	background: none;
+	border: none;
+	box-shadow: none;
+	outline: none;     
+	height:17px;
+	width:40px;
+	cursor: pointer;
+	
+  }
+
+  #centerBtn img,#rightBtn img,#leftBtn img,#justifyBtn img{
+	width: 20px;
+	height: 20px;
+	 	
+  }
+
+
+ 

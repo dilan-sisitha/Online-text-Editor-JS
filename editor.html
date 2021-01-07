@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" />
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="styles.css" rel="stylesheet" />
+  <script type="text/javascript" src="myscript.js"></script>
+  <script type="text/javascript" src="js/jscolor.js"></script>
+
+</head>
+
+<body onload="enableEditMode();">
+
+  <div class="navigation-bar">
+    <div id="navigation-container" class="cf">
+      <ul>
+        <li><button onclick="Bold();" id="boldBtn"><b>B</b></button></li>
+        <li><button onclick="Underline();" id="underlineBtn"><u>U</u></button></li>
+        <li><button onclick="Italic();" id="italicBtn"><em>I</em></button></li>
+        <li>
+          <div>
+            <span>A</span>
+            <span><input type="color" id=colorbtn; onchange="FontColor(this.value);" value="#E10C0C"></span>
+
+            <div>
+
+        </li>
+        <li><button onclick="justifyCenter();" id="centerBtn"><img src="img/center.png"></button></li>
+        <li><button onclick="justifyRight();" id="rightBtn"><img src="img/right.png"></button></li>
+        <li><button onclick="JustifyLeft();" id="leftBtn"><img src="img/left.png"></button></li>
+        <li><button onclick="JustifyFull();" id="justifyBtn"><img src="img/justify.png"></button></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="textframe">
+
+    <iframe name=richtext></iframe>
+  </div>
+
+
+  <p id="demo"></p>
+
+</body>
+
+</html>
